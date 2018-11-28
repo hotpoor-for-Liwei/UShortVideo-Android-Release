@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/makeup_radio_group_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorSpeedPanel"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/layout_filter_title"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp40"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/btn_back"
+            android:minWidth="@dimen/dp5"
+            android:minHeight="@dimen/dp5"
+            android:paddingStart="@dimen/dp20"
+            android:paddingTop="@dimen/dp10"
+            android:paddingEnd="@dimen/dp20"
+            android:paddingBottom="@dimen/dp10"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/fu_normal_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:minWidth="@dimen/dp5"
+            android:minHeight="@dimen/dp5"
+            android:paddingStart="@dimen/dp20"
+            android:paddingTop="@dimen/dp10"
+            android:paddingEnd="@dimen/dp20"
+            android:paddingBottom="@dimen/dp10"
+            android:text="@string/fu_normal_filter"
+            android:textColor="@drawable/title_text_color_selector"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/fu_ar_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:minWidth="@dimen/dp5"
+            android:minHeight="@dimen/dp5"
+            android:paddingStart="@dimen/dp20"
+            android:paddingTop="@dimen/dp10"
+            android:paddingEnd="@dimen/dp20"
+            android:paddingBottom="@dimen/dp10"
+            android:text="@string/fu_ar_filter"
+            android:textColor="@drawable/title_text_color_selector"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/fu_face_wrap_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:minWidth="@dimen/dp5"
+            android:minHeight="@dimen/dp5"
+            android:paddingStart="@dimen/dp20"
+            android:paddingTop="@dimen/dp10"
+            android:paddingEnd="@dimen/dp20"
+            android:paddingBottom="@dimen/dp10"
+            android:text="@string/fu_face_wrap_filter"
+            android:textColor="@drawable/title_text_color_selector"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/fu_face_change_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:minWidth="@dimen/dp5"
+            android:minHeight="@dimen/dp5"
+            android:paddingStart="@dimen/dp20"
+            android:paddingTop="@dimen/dp10"
+            android:paddingEnd="@dimen/dp20"
+            android:paddingBottom="@dimen/dp10"
+            android:text="@string/fu_face_change_filter"
+            android:textColor="@drawable/title_text_color_selector"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/fu_background_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:minWidth="@dimen/dp5"
+            android:minHeight="@dimen/dp5"
+            android:paddingStart="@dimen/dp20"
+            android:paddingTop="@dimen/dp10"
+            android:paddingEnd="@dimen/dp20"
+            android:paddingBottom="@dimen/dp10"
+            android:text="@string/fu_background_filter"
+            android:textColor="@drawable/title_text_color_selector"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/fu_music_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:minWidth="@dimen/dp5"
+            android:minHeight="@dimen/dp5"
+            android:paddingStart="@dimen/dp20"
+            android:paddingTop="@dimen/dp10"
+            android:paddingEnd="@dimen/dp20"
+            android:paddingBottom="@dimen/dp10"
+            android:text="@string/fu_music_filter"
+            android:textColor="@drawable/title_text_color_selector"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/expression_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:minWidth="@dimen/dp5"
+            android:minHeight="@dimen/dp5"
+            android:paddingStart="@dimen/dp20"
+            android:paddingTop="@dimen/dp10"
+            android:paddingEnd="@dimen/dp20"
+            android:paddingBottom="@dimen/dp10"
+            android:text="@string/expression_filter"
+            android:textColor="@drawable/title_text_color_selector"
+            android:visibility="gone" />
+
+
+        <Button
+            android:id="@+id/sense_time_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:minWidth="@dimen/dp5"
+            android:minHeight="@dimen/dp5"
+            android:paddingStart="@dimen/dp20"
+            android:paddingTop="@dimen/dp10"
+            android:paddingEnd="@dimen/dp20"
+            android:paddingBottom="@dimen/dp10"
+            android:text="@string/sense_time_filter"
+            android:textColor="@drawable/title_text_color_selector"
+            android:visibility="gone" />
+    </LinearLayout>
+</HorizontalScrollView>
