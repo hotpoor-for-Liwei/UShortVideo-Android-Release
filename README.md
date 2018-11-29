@@ -1,4 +1,4 @@
-#UShortVideo-Android
+# MovieousShortVideo-Android
 
 MovieousShortVideo-Android 是 Movieous 推出的一款适用于 Android 平台的短视频 SDK，提供了视频录制、视频编辑、美颜、滤镜、分段录制、云端存储等多种功能，支持高度定制以及二次开发。
 
@@ -54,5 +54,3 @@ MovieousShortVideo-Android 是 Movieous 推出的一款适用于 Android 平台�
 在官网创建 app 后，控制台会生成 lincese.txt 鉴权文件，通过 `UShortVideoEnv` 中的 `init` 接口，把 lincese.txt 文件中的字符串传递给 SDK 进行鉴权，具体请参考 SDK 文档接口说明。
 
 - [联系商务](mailto:sales@movieous.com)
-=======
-在官网创建 app 后，控制台会生成 lincese.txt 鉴权文件，通过 `UShortVideoEnv` 中的 `init` 接口，把 lincese.txt 文件中的字符串传递给 SDK 进行鉴权，具体请参考 SDK 文档接口说明。

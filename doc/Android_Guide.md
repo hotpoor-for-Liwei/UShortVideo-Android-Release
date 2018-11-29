@@ -1274,4 +1274,4 @@ public interface UCameraFocusListener {
   - 手势识别
   - 表情识别
   - 视频保存为 mp4 格式
-  - 支持 arm64, i386, x86_64 体系架构
+  - 支持主流架构（armv7、arm64、x86）
