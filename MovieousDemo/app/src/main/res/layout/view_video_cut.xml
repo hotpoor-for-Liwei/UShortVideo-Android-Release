@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/item_video_speed" />
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="@dimen/dp5"
+        android:text="@string/select_clip_tip"
+        android:textColor="@color/gray"
+        android:textSize="12sp" />
+
+    <com.movieous.media.view.FrameListView
+        android:id="@+id/frame_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+    </com.movieous.media.view.FrameListView>
+
+</LinearLayout>
